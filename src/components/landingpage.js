@@ -9,8 +9,38 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src={Photo} alt="Profile Image" className="profile-photo"
+              src={Photo}
+              alt="Profile"
+              className="profile-photo"
             />
+            <div className="banner-text">
+              <h1>Full Stack Developer</h1>
+              <hr/>
+              <p>Ruby on Rails | JavaScript | ReactJS | HTML/CSS | SQL </p>
+
+              <div className="social-links">
+                {/* Linkedin */}
+                <a href="https://www.linkedin.com/in/noahlthorne/" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                </a>
+
+                {/* Github*/}
+                 <a href="https://github.com/noahlthorne" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-github-square" aria-hidden="true"/>
+                </a>
+
+                {/* Facebook */}
+                 <a href="https://www.facebook.com/noah.thorne.908" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-facebook-square" aria-hidden="true"/>
+                </a>
+
+                {/* Instagram */}
+                 <a href="https://www.instagram.com/buckwheatthorne/?hl=en" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-instagram" aria-hidden="true"/>
+                </a>
+              </div>
+
+            </div>
           </Cell>
         </Grid>
       </div>

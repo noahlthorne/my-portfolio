@@ -69,3 +69,18 @@
   font-size: 50px;
   padding: 16px;
 }
+
+.ronpa {
+  background-image: url('images/ronpa-logo.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel {
+  width: 50%;
+}
+
+.project-grid {
+  display: flex;
+  align-items: center;
+}

@@ -77,10 +77,12 @@
 }
 
 .carousel {
-  width: 50%;
+  width: 40%;
+  height: 60%;
 }
 
-.project-grid {
+.project-content {
+  height: 80vh;
   display: flex;
   align-items: center;
 }

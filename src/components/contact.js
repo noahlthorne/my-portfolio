@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Photo from "../images/P1120527.png"
+import { List, ListItem, ListItemContent } from 'react-mdl';
 
 class Contact extends Component {
   render() {
@@ -18,7 +19,32 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
+              <div className="contact-list">
+                <List>
 
+                  <ListItem>
+                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Lato'}}>
+                      <i className="fa fa-phone-square" aria-hidden="true" />
+                      (810)-360-5156
+                    </ListItemContent>
+                  </ListItem>
+
+                  <ListItem>
+                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Lato'}}>
+                      <i className="fa fa-envelope" aria-hidden="true" />
+                      noahlthorne@gmail.com
+                    </ListItemContent>
+                  </ListItem>
+
+                  <ListItem>
+                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Lato'}}>
+                      <i className="fa fa-skype" aria-hidden="true" />
+                      My Skype Id
+                    </ListItemContent>
+                  </ListItem>
+
+                </List>
+              </div>
           </Cell>
         </Grid>
       </div>

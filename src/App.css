@@ -147,6 +147,10 @@
   font-weight: bold;
 }
 
+.contact-grid hr {
+  width: 70%;
+  margin: auto;
+}
 
 /*Resume page */
 .resume-right-col {

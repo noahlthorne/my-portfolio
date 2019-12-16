@@ -122,3 +122,9 @@
 .contact-grid hr {
 
 }
+
+/*Resume page */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}

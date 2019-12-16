@@ -6,8 +6,9 @@ class Landing extends Component {
   render() {
     return (
       <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
-          <Cell col={12}>
+        <Grid className="landing-grid" style={{paddingTop: '38px'}}>
+
+          <Cell col={6}>
             <img
               src={Photo}
               alt="Profile"
@@ -39,8 +40,11 @@ class Landing extends Component {
                   <i className="fa fa-instagram" aria-hidden="true"/>
                 </a>
               </div>
-
             </div>
+          </Cell>
+
+          <Cell col={6}>
+
           </Cell>
         </Grid>
       </div>

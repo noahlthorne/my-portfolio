@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Photo from "../images/P1120527.png"
 import Experience from "./experience"
+import WorkHistory from "./workhistory"
 
 class Resume extends Component {
   render() {
@@ -28,14 +29,32 @@ class Resume extends Component {
             <p>noahlthorne@gmail.com</p>
             <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
-          <Cell className="resume-right-col" col={4}>
+          <Cell className="resume-right-col" col={8}>
             <h2>Experience and Education</h2>
 
 
             <Experience
-              startYear={2012}
+              startYear={2019}
+              schoolName="Le Wagon"
+              schoolDescription="I attended Le Wagon Tokyo, a 10-week intensive coding school to learn JavaScript ES6, Ruby on Rails, HTML, CSS, Bootstrap, SQL, git, and GitHub."
             />
 
+
+            <Experience
+              startYear={2019}
+              schoolName="Le Wagon"
+              schoolDescription="I attended Le Wagon Tokyo, a 10-week intensive coding school to learn JavaScript ES6, Ruby on Rails, HTML, CSS, Bootstrap, SQL, git, and GitHub."
+            />
+            <hr style={{borderTop: '3px solid #e22947'}}/>
+
+            <h2>Work History</h2>
+            <WorkHistory
+              startYear={2019}
+              jobName="Abernathy MacGregor"
+              jobDescription="I worked in administration and front desk reception at a New York City public relations firm called Abernathy MacGregor. I systematized and organized client information and data and I served as a first line of contact for both new and returning clients for the New York office."
+            />
+            <hr style={{borderTop: '3px solid #e22947'}}/>
+            <h2>Skills</h2>
 
           </Cell>
         </Grid>

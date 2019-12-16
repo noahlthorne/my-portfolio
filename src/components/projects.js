@@ -13,122 +13,115 @@ class Projects extends Component {
     if(this.state.activeTab === 0 ) {
     return(
       <div className="project-content">
-      <Carousel className="carousel">
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/ronpa-logo.png"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/swapsies.png"
-            alt="Third slide"
-          />
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
+        <div className="project-carousel">
+          <Carousel className="carousel">
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/images/ronpa-logo.png"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../images/dashboard.png')}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('../images/debate.png')}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+        <div className="project-description">
+          <h1>Ronpa</h1>
+          <hr style ={{borderTop: '1px solid #grey', width: '50%'}}/>
+          <p>This debate app was born to enable structured, live discussion of any issue. Unlike the multitude of text-based discussion platforms online, Ronpa brings people face to face.</p>
+        </div>
+
       </div>
       )
     } else if(this.state.activeTab === 1) {
       return(
-       <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/ronpa-logo.png"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/swapsies.png"
-            alt="Third slide"
-          />
+        <div className="project-content">
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
+          <div className="project-carousel">
+            <Carousel className="carousel">
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={require('../images/swapsies-home.png')}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={require('../images/browse-games.png')}
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={require('../images/swap-screen.png')}
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </div>
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+          <div className="project-description">
+            <h1>Swapsies</h1>
+            <hr style ={{borderTop: '1px solid #grey', width: '50%'}}/>
+            <p>Tired of getting peanuts for your unwanted games at second hand stores? Now you can swap them with other game enthusiasts and cut out the middleman.</p>
+          </div>
+
+        </div>
       )
     } else {
       return(
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/ronpa-logo.png"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/swapsies.png"
-            alt="Third slide"
-          />
+     <div className="project-content">
 
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
+       <div className="project-carousel">
+         <Carousel className="carousel">
+           <Carousel.Item>
+             <img
+               className="d-block w-100"
+               src={require('../images/tipsy-turtle-home.png')}
+               alt="First slide"
+             />
+             <Carousel.Caption>
+             </Carousel.Caption>
+           </Carousel.Item>
+           <Carousel.Item>
+             <img
+               className="d-block w-100"
+               src={require('../images/add-cocktail.png')}
+               alt="Second slide"
+             />
+           </Carousel.Item>
+         </Carousel>
+       </div>
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+       <div className="project-description">
+         <h1>Tipsy Turtle</h1>
+         <hr style ={{borderTop: '1px solid #grey', width: '50%'}}/>
+         <p>Save your favorite cocktail recipes or learn a new recipe!</p>
+       </div>
+
+     </div>
       )
     }
   }

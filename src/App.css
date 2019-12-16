@@ -8,6 +8,8 @@
   position: fixed;
 }
 
+/*Landing Page*/
+
 .landing-grid {
   background: #20002c;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
@@ -20,9 +22,8 @@
 }
 
 .profile-photo {
-  height: 200px;
-  width: 200px;
-  margin-top: 77px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
   border-radius: 195px;
   object-position: -30px -1px;
@@ -32,7 +33,7 @@
 
 .banner-text {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.6;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -40,7 +41,7 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
@@ -66,8 +67,14 @@
 
 .social-links i {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   padding: 16px;
+  transition: transform 0.3s;
+}
+
+.social-links i:hover {
+  transform: scale(1.1);
+  color: grey;
 }
 
 .ronpa {
@@ -119,13 +126,18 @@
   font-weight: bold;
 }
 
-.contact-grid hr {
-
-}
 
 /*Resume page */
 .resume-right-col {
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+.resume-right-col h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+
+.resume-left-col h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
 }

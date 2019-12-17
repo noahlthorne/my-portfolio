@@ -60,7 +60,7 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
@@ -69,6 +69,7 @@
   color: white;
   font-size: 40px;
   padding: 16px;
+  margin: auto;
   transition: transform 0.3s;
 }
 
@@ -82,12 +83,13 @@
 
 .project-carousel {
   width: 50%;
+  height: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 90px;
 }
 
 .project-content {
   display: flex;
-  margin-top: 90px;
 }
 
 .project-description {

@@ -7,7 +7,7 @@ class Skills extends Component {
       <Grid>
         <Cell col={12}>
           <div style={{display: 'flex'}}>
-            <h5>JavaScript, HTML, ReactJS</h5>
+            <h5>JavaScript | Ruby on Rails | ReactJS | HTML | CSS | SQL/Postgres | AJAX | Github </h5>
           </div>
         </Cell>
       </Grid>

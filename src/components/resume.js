@@ -19,6 +19,7 @@ class Resume extends Component {
               />
             </div>
             <h2 style={{paddingTop: '16px'}}>Noah Thorne</h2>
+            <a href="src/components/noah-resume.pdf" download>Download full resume</a>
             <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
             <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>Accomplished and proficient full stack
@@ -33,22 +34,25 @@ class Resume extends Component {
           </Cell>
 
           <Cell className="resume-right-col" col={8}>
-            <h2>Experience and Education</h2>
+            <h2>Education</h2>
             <Experience
               startYear={2019}
               schoolName="Le Wagon"
-              schoolDescription="I attended Le Wagon Tokyo, a 10-week intensive coding school to learn JavaScript ES6, Ruby on Rails, HTML, CSS, Bootstrap, SQL, git, and GitHub."
-            />
-            <Experience
-              startYear={2019}
-              schoolName="Le Wagon"
-              schoolDescription="I attended Le Wagon Tokyo, a 10-week intensive coding school to learn JavaScript ES6, Ruby on Rails, HTML, CSS, Bootstrap, SQL, git, and GitHub."
+              schoolDescription="I attended Le Wagon Tokyo, a 9-week intensive coding school to learn JavaScript ES6, Ruby on Rails, HTML, CSS, Bootstrap, SQL, git, and GitHub."
             />
             <hr style={{borderTop: '3px solid #e22947'}}/>
 
             <h2>Work History</h2>
             <WorkHistory
-              startYear={2019}
+              startYear={2018}
+              endYear={2019}
+              jobName="Abernathy MacGregor"
+              jobDescription="I worked in administration and front desk reception at a New York City public relations firm called Abernathy MacGregor. I systematized and organized client information and data and I served as a first line of contact for both new and returning clients for the New York office."
+            />
+
+             <WorkHistory
+              startYear={2016}
+              endYear={2019}
               jobName="Abernathy MacGregor"
               jobDescription="I worked in administration and front desk reception at a New York City public relations firm called Abernathy MacGregor. I systematized and organized client information and data and I served as a first line of contact for both new and returning clients for the New York office."
             />

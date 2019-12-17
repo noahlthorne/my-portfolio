@@ -21,7 +21,10 @@ class Resume extends Component {
             <h2 style={{paddingTop: '16px'}}>Noah Thorne</h2>
             <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
             <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Accomplished and proficient full stack
+              software developer with experience in Ruby
+              on Rails and JavaScript and an eagerness to
+              learn new technologies.</p>
             <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Residence | Shibuya-ku</h5>
             <h5>Phone Number(US) | (810)-360-5156</h5>

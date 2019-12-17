@@ -44,7 +44,11 @@ class Landing extends Component {
           </Cell>
 
           <Cell col={6}>
-
+            <div className="about-text">
+              <h1>About</h1>
+              <hr/>
+              <p>I am a graduate of Le Wagon Tokyo, the #1 rated coding school in the world, and am now seeking new opportunities as a fullstack developer. I am an inventive and creative developer and love building projects and learning new technologies. I work very well within a team and am also proficient when working on my own. I am a driven programmer and have work experience workng in detail-oriented and results directed environments. Working with a team in a startup workflow was one of the best experiences I've had during my programming practice. Please feel free to contact me anytime if you would like to see samples of my code, more information about a project, or for any other questions.</p>
+            </div>
           </Cell>
         </Grid>
       </div>

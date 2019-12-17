@@ -4,6 +4,9 @@
   background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.header-color a {
+  color: #E9E3EA;
+}
 .drawer {
   position: fixed;
 }
@@ -47,9 +50,10 @@
 }
 
 .banner-text hr {
-  border-top: 1px solid grey;
+  border-top: 1px solid #E9E3EA;
   width: 60%;
   margin: auto;
+  opacity: 0.4;
 }
 
 .banner-text p {
@@ -78,6 +82,38 @@
   color: grey;
 }
 
+.about-text {
+  margin-top: 200px;
+}
+
+.about-text h1 {
+  font-size: 38px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: lighter;
+  margin-top: 0;
+  text-align: left;
+  color: #E9E3EA;
+}
+
+
+.about-text p {
+  color: white;
+  font-size: 18px;
+  font-weight: ligh;
+  font-family: 'Oxygen', sans-serif;
+  line-height: 1.8;
+  text-align: left;
+  color: #E9E3EA;
+  padding-right: 16px;
+}
+
+.about-text hr {
+  width: 70%;
+  color: #E9E3EA;
+  opacity: 0.4;
+}
+
 /*Projects page*/
 
 
@@ -102,6 +138,9 @@
   margin-bottom: 0px;
   font-family: 'Lato', sans-serif;
   color: #2E343A;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0 24px 0 24px;
 }
 
 .project-description p {
@@ -110,10 +149,22 @@
   font-size: 16px;
   padding: 0 24px 0 24px;
   color: #2E343A;
+  text-align: left;
+}
+
+.project-description h4 {
+  font-family: 'Lato', sans-serif;
+  color: #2E343A;
+  text-align: left;
+  font-weight: lighter;
+  padding: 0 24px 0 24px;
 }
 
 .project-description hr {
-  margin: auto;
+  color: #2E343A;
+  opacity: 0.6;
+  width: 50%;
+  margin-left: 24px;
 }
 
 

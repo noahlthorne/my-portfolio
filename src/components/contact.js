@@ -13,7 +13,7 @@ class Contact extends Component {
              src={Photo}
             alt="avatar"
             className="profile-photo"/>
-            <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>askasfa</p>
+            <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>If you are interested in my work, would like more information about a project, or for any other questions, please feel free to send me a message.</p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>

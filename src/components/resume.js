@@ -19,13 +19,10 @@ class Resume extends Component {
               />
             </div>
             <h2 style={{paddingTop: '16px'}}>Noah Thorne</h2>
-            <a href="src/components/noah-resume.pdf" download>Download full resume</a>
+            <a href="./resume.zip" download>Download full resume</a>
             <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
             <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Accomplished and proficient full stack
-              software developer with experience in Ruby
-              on Rails and JavaScript and an eagerness to
-              learn new technologies.</p>
+            <p>As a long time tech enthusiast, I have decided to make a career shift to programming. Over the past year or so, I have studied everything I can find on JavaScript and Ruby, built several of my own projects and graduated from Le Wagon coding school, the #1 rated coding school in the world. I am now seeking new opportunities as a full-stack developer with an eagerness to learn new languages and technologies.</p>
             <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Residence | Shibuya-ku</h5>
             <h5>Phone Number(US) | (810)-360-5156</h5>

@@ -53,8 +53,8 @@ class Resume extends Component {
              <WorkHistory
               startYear={2016}
               endYear={2019}
-              jobName="Abernathy MacGregor"
-              jobDescription="I worked in administration and front desk reception at a New York City public relations firm called Abernathy MacGregor. I systematized and organized client information and data and I served as a first line of contact for both new and returning clients for the New York office."
+              jobName="Christ Church New York City"
+              jobDescription="I served as the Director of Administration at Christ Church NYC. At Christ Church I assisted as a constructive and capable liaison between the professional leadership and the staff, streamlined databases for more accurate and effective record keeping, and ffectively managed and trained groups of volunteers."
             />
             <hr style={{borderTop: '3px solid #e22947'}}/>
             <h2>Skills</h2>

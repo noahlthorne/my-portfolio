@@ -19,7 +19,9 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
-            <MyForm></MyForm>
+            <div className="contact-form">
+              <MyForm></MyForm>
+            </div>
           </Cell>
         </Grid>
       </div>

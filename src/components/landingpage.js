@@ -20,7 +20,7 @@ class Landing extends Component {
             <h1>Noah Thorne</h1>
             <h4>Full Stack Developer</h4>
             <hr/>
-            <p>Ruby on Rails | JavaScript | ReactJS | HTML/CSS | SQL </p>
+            <p className="skills">Ruby on Rails | JavaScript | ReactJS | HTML/CSS | SQL </p>
 
             <div className="social-links">
               {/* Linkedin */}

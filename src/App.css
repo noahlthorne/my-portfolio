@@ -1,4 +1,8 @@
 
+body {
+  height: 100%
+}
+
 .header-color {
   background: #00d2ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -54,6 +58,7 @@
 }
 
 .banner-text {
+  min-height:100%;
   background-color: rgba(46, 52, 58, 0.7);
   margin: auto;
   text-align: center;
@@ -62,7 +67,7 @@
   padding-bottom: 20px;
   display: flex;
   flex-flow: column;
-  height: 100%;
+  background-size: cover;
 }
 
 .banner-text h1 {
@@ -87,6 +92,8 @@
   border-top: 1px solid #E9E3EA;
   width: 60%;
   margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
   opacity: 0.4;
 }
 
@@ -98,6 +105,8 @@
 
 .skills {
   letter-spacing: 1px;
+  width: 70%;
+  margin: auto;
 }
 
 .social-links {

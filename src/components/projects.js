@@ -38,7 +38,7 @@ class Projects extends Component {
         <p>The idea behind Ronpa was to create an approachable, fun way to debate live with strangers or people you know on a topic of your choosing. We wanted to take something that is perceived as intimidating and gamify it, in order to make it something that anyone could engage in, but without the pressure of a typical debate environment.</p>
         <hr/>
         <h4>Challenges and Solutions</h4>
-        <p>The most challening aspect of creating this app was the debate itself. Creating seperate views and unique actions, timers and synchronised browser refreshes depending on your role in the debate is not an easy task. We implemented Action Cable to integrate WebSockets with our application to render the different views for each user and we used JavaScript to render a timer that would update the phase of the debate.</p>
+        <p>The most challenging aspect of creating this app was the debate itself. Creating separate views and unique actions, timers and synchronized browser refreshes depending on your role in the debate is not an easy task. We implemented Action Cable to integrate WebSockets with our application to render the different views for each user and we used JavaScript to render a timer that would update the phase of the debate.</p>
       </div>
 
         <div className="project-carousel">

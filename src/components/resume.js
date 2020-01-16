@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Photo from "../images/P1120527.png"
+import Photo from "../images/Noah.png"
 import Experience from "./experience"
 import WorkHistory from "./workhistory"
 import Skills from "./skills";

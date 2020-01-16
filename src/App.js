@@ -4,10 +4,13 @@ import  { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main'
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { createBrowserHistory as history } from 'history';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
+      <Router basename={process.env.PUBLIC_URL} history={history}>
       <div className="demo-big-content">
           <Layout>
               <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Noah Thorne</Link>} scroll>
@@ -30,6 +33,7 @@ class App extends Component {
               </Content>
           </Layout>
       </div>
+      </Router>
     );
   }
 }

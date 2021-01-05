@@ -1,6 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { createBrowserHistory as history } from 'history';
 import LandingPage from './landingpage';
 import AboutMe from './aboutme';
 import Contact from './contact';

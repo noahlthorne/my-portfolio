@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 import Photo from "../images/Noah.png"
 
 class Landing extends Component {

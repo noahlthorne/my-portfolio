@@ -56,14 +56,14 @@ class Projects extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={require('../images/dashboard.png')}
+                  src='./images/dashboard.png'
                   alt="Second slide"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src={require('../images/debate.png')}
+                  src='./images/debate.png'
                   alt="Third slide"
                 />
               </Carousel.Item>
@@ -109,7 +109,7 @@ class Projects extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('../images/swapsies-home.png')}
+                src='./images/swapsies-home.png'
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -118,14 +118,14 @@ class Projects extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('../images/browse-games.png')}
+                src='./images/browse-games.png'
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('../images/swap-screen.png')}
+                src='../images/swap-screen.png'
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -171,7 +171,7 @@ class Projects extends Component {
          <Carousel.Item>
            <img
              className="d-block w-100"
-             src={require('../images/tipsy-turtle-home.png')}
+             src='./images/tipsy-turtle-home.png'
              alt="First slide"
            />
            <Carousel.Caption>
@@ -180,7 +180,7 @@ class Projects extends Component {
          <Carousel.Item>
            <img
              className="d-block w-100"
-             src={require('../images/add-cocktail.png')}
+             src='./images/add-cocktail.png'
              alt="Second slide"
            />
          </Carousel.Item>

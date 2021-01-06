@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Photo from "../images/Noah.png"
+import Photo from "../images/noah2.JPG"
 
 class Landing extends Component {
   render() {
@@ -19,7 +19,7 @@ class Landing extends Component {
               <h1>Noah Thorne</h1>
               <h4>Full Stack Developer</h4>
               <hr/>
-              <p className="skills">Ruby on Rails | JavaScript | ReactJS | HTML/CSS | SQL </p>
+              <p className="skills">JavaScript | TypeScript | NodeJS | NestJS | Ruby on Rails | AWS | ReactJS | HTML | CSS | SQL/Postgres | MongoDB</p>
 
               <div className="social-links">
                 {/* Linkedin */}
@@ -43,7 +43,7 @@ class Landing extends Component {
                 </a>
               </div>
               <div className="about-me-text">
-                <p>I am a graduate of Le Wagon Tokyo, the #1 rated coding school in the world, and am now seeking new opportunities as a fullstack developer. I am an inventive and creative developer and love building projects and learning new technologies. I work very well within a team and am also proficient when working on my own. I am a driven programmer and have work experience workng in detail-oriented and results directed environments. Working with a team in a startup workflow was one of the best experiences I've had during my programming practice. Please feel free to contact me anytime if you would like to see samples of my code, more information about a project, or for any other questions.</p>
+                <p>I am an experienced full-stack software engineer with an enthusiasm for server-side development. I have worked with many frameworks and technologies and am currently in an e-commerce setting in a Shopify partner company, working on B2B applications and theme development for merchants on the Shopify platform. I am now seeking new opportunities as a full-stack developer with an eagerness to work with new languages and technologies.</p>
               </div>
             </div>
 
